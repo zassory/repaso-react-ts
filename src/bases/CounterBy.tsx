@@ -11,8 +11,8 @@ export const Counter = ({ initialValue = 0 }:Props) => {
   const handleClick = () => {
     setCounter( prev => prev + 1);
   }
-
   
+
   return (
     <>
         <h1>Counter: { counter }</h1>
@@ -22,7 +22,7 @@ export const Counter = ({ initialValue = 0 }:Props) => {
             onClick={handleClick}
         >
             +1
-        </button>        
+        </button>
     </>
   )
 }
